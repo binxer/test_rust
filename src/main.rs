@@ -15,7 +15,7 @@ fn main() {
             *x += 1;
         }
     }
-
+    //comment
     println!("Point({}, {})", p.x, p.y);
     let numbers = vec![1, 2, 3, 4, 5];
     let sum = numbers.iter().fold(0, |a, &num| a + num);
